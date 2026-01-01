@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(87, 76, 81);
+  
+}
+
+main {
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 60px;
+}
+
+.ball {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* different colors only */
+.b1 {
+  background: radial-gradient(circle, #ff4e50, #f9d423);
+}
+
+.b2 {
+  background: radial-gradient(circle, #4facfe, #00f2fe);
+}
+
+.b3 {
+  background: radial-gradient(circle, #43e97b, #38f9d7);
+}
+
+.shadow {
+  position: absolute;
+  top: 90px;
+  width: 80px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  transform: scaleX(0.8);
+
+}
